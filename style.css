@@ -64,3 +64,29 @@ button{
     cursor: pointer;
     transform: scale(1.1);
 }
+
+#EndGameModal{
+    display: none;
+}
+
+.EndGameModal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 250px;
+}
