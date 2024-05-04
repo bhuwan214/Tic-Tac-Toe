@@ -12,7 +12,7 @@ align-items: center;
 }
 
 .game-container{
-   opacity: 0.2;
+   opacity: 0;
     width: 80%;
     height: 80%;
     display: flex;
@@ -58,7 +58,7 @@ button{
     width: 300px;
     height: 200px;
     text-align: center;
-    background-color: bisque;
+    background-color: rgb(244, 241, 238);
     margin-top: 20px;
     position: absolute;
     top: 50%;
@@ -119,4 +119,8 @@ p{
     font-weight: bold;
     text-align: center;
     width: 250px;
+padding: 50px;
+border-radius: 10px;
+background-color: #f4f2f1;
+
 }
